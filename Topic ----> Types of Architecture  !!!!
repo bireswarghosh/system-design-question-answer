@@ -1,0 +1,78 @@
+
+Topic ----> Types of Architecture  !!!!
+
+
+
+
+1  If a user needs to do online bank transactions which of the following should be developed:
+ 
+
+ Solution :          Web applications                                                                                                                                                                   1  B
+ 
+
+
+2   Which of the following is true:
+ 
+Options
+
+This problem has only one correct answer
+Web site can only contain static information in the form of text
+Web application allows user to read as well as write
+'Web application’ and ‘Web sites’ should be used interchangeably
+Web site does not have a logic layer
+ 
+
+ Solution :   Web application allows user to read as well as write 
+
+
+
+
+3  Which of the following layers of a web application is closest to the user?
+ 
+ Solution :    Front end
+
+
+
+
+4   Which layer contains the logic of a web application:
+ 
+
+ 
+  Solution :   Business layer
+ 
+
+
+
+
+5   Which of the following is true for monolithic architecture?
+
+
+ 
+  Solution :    Front end, back end and data storage layer of a web application are present on the same system
+
+
+
+
+
+6    Which of the following is true for monolithic architecture:
+ 
+This problem has only one correct answer
+Any error or bug in a module can break the complete system
+For each update, the complete code has to be deployed again
+Any change in programming language or framework will affect the entire system
+All of the above
+
+
+  Solution :    All of the above
+
+
+
+7   What are the challenges of having the entire application code (Front end, back end and data storage layer) as a single codebase?
+
+
+  Solution :   If all the layers are present as a single codebase, then it would be difficult to modify the code as it would be tightly coupled. A lot of time and effort would be required after every minor change, as the whole  application code would be deployed again. Thorough testing would be required  as a change in one layer may lead to changes in other layers. Plus, when the code will increase with time, it would become difficult to manage. Using different technologies would be difficult due to compatibility issues of a single codebase. 
+
+
+
+
+
