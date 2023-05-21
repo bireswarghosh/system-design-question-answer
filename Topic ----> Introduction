@@ -16,7 +16,9 @@ The input is software requirements specification (SRS)                          
 2  Which if the following is true for low-level design?
  
 
- Solution :    
+ Solution :    Provides the implementation details of each module
+Required entities and classes are created
+Finalized high level design is the input for this process
 
 
 
@@ -59,7 +61,7 @@ continuation of a project that should have been cancelled
 Which of the following arranges them in the correct order?
 
  
-  Solution :    
+  Solution :    3,1,5,2,4,6
   
   
   
