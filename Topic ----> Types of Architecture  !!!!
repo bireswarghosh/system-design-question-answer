@@ -76,3 +76,193 @@ All of the above
 
 
 
+
+
+Question-8)  In which of the following situations, monolithic architecture should be preferred:
+
+
+
+  Solution :    When resources are limited
+Developers have little to no experience
+The application has limited number of users
+
+
+
+
+
+
+
+Question-9)  Which of the following is true for monolithic system:
+
+
+  Solution :    Same codebase is used for development
+
+
+
+
+
+Question-10)  Monolithics requires less network calls.
+
+
+  Solution :    True
+
+
+
+
+
+
+
+
+
+
+Question-11)  Out of the two, which web application should definitely have less latency:
+
+
+  Solution :  Online banking application  
+
+
+
+
+
+
+
+
+Question-12)  Which of the following statements is/are true ?
+
+
+  Solution :   For the microservices application, each service has its own database and follows the principle of single responsibility.
+For microservices applications, if the services want to share data or communicate with each other, it's done through the APIs over the network. 
+ 
+
+
+
+
+
+Question-13)  Selecting scaling of specific components is possible in case of Microservices based applications.
+
+
+  Solution :    True
+
+
+
+
+
+
+
+
+Question-14) Which of the following statements are true for microservices?
+
+
+  Solution :    Since the components are loosely coupled, the changes can be made easily in the components.
+Multiple technologies and different techstack can be used to develop microservices architecture based applications
+
+
+
+
+
+
+
+Question-15)  What are the benefits of using microservices architecture over monolithic?
+
+
+  Solution :    If an application needs frequent addition of features and updating existing features, then Microservice architecture would be a better option.
+
+
+
+
+
+
+
+
+Question-16)  When should the Microservice Architecture be used?
+
+
+  Solution :    
+
+
+
+
+
+
+ 
+
+       !!!!!! Assignment !!!!!
+
+
+
+
+Question-1)    Suppose you have to build an e-commerce application that takes orders from the customers, verifies inventory and ships the products to them. It must also support different clients such as desktop browsers, mobile browsers and mobile applications. Keeping in the above scenario answer the following questions.
+Think of the different layers and components it should have?
+ 
+
+ Solution -:       User interface showing products available in store, a business logic layer which has components like, catalogue, order, payment, shipping etc. and the data access layer containing all the data.                                                                                                                                                                      1  B
+ 
+
+
+Question-2) Suppose you have to build an e-commerce application that takes orders from the customers, verifies inventory and ships the products to them. It must also support different clients such as desktop browsers, mobile browsers and mobile applications. Keeping in the above scenario answer the following questions.
+If you have a small team of new developers who should be made productive at the earliest, which kind of architectural pattern would you prefer? Why?
+
+ 
+
+ Solution -:    Monolithic. Since it's the beginning of development, the code would be simple and easy to modify.
+
+
+
+
+Question-3)  Suppose you have to build an e-commerce application that takes orders from the customers, verifies inventory and ships the products to them. It must also support different clients such as desktop browsers, mobile browsers and mobile applications. Keeping in the above scenario answer the following questions.
+Suppose after some time, the application becomes larger, with more clients and larger team size. Will the current approach have any drawbacks?
+
+  
+
+ Solution -:    Yes, large code will make it difficult to manage and  perform testing due to high coupling. A huge number of clients lead to overloaded servers and hence the need for scalability. 
+
+
+
+
+Question-4) Suppose you have to build an e-commerce application that takes orders from the customers, verifies inventory and ships the products to them. It must also support different clients such as desktop browsers, mobile browsers and mobile applications. Keeping in mind the above scenario answer the following questions.
+Which components should be scaled to run the application smoothly?
+
+ 
+  Solution -:    Web server should be scaled to handle incoming requests of clients, systems would inc computational power to handle large number of operations, database servers should also be accessed
+
+
+
+
+Question-5) Suppose you have to build an e-commerce application that takes orders from the customers, verifies inventory and ships the products to them. It must also support different clients such as desktop browsers, mobile browsers and mobile applications. Keeping in mind the above scenario answer the following questions.
+Is there any drawback of scaling the existing monolithic application?
+
+
+ 
+  Solution -:    With a monolithic architecture, we cannot scale each component independently, also scalability is possible only up to a certain limit.
+
+
+
+
+
+Question-6) Suppose you have to build an e-commerce application that takes orders from the customers, verifies inventory and ships the products to them. It must also support different clients such as desktop browsers, mobile browsers and mobile applications. Keeping in mind the above scenario answer the following questions.
+Can you think of the benefit of using microservices architecture for this scenario?
+
+
+
+  Solution :    Microservices based architecture will help in scaling the components independently. Also, heterogeneous technologies can be used for  faster operations and large teams can work independently on the individual components of the application leading to faster development.
+
+
+
+
+  
+  
+           |
+           |
+           |
+          \|/
+|=|================================|=|
+|=|     # THANK YOU FOR SEE IT     |=|
+|=|         # PLEASE FOLLOW        |=|
+|=|   # STAR MY REPOSITORY ⭐ !!!   |=|
+|=|================================|=|
+ 
+ 
+
+
+
+
