@@ -177,7 +177,8 @@ Question-15)  What are the benefits of using microservices architecture over mon
 Question-16)  When should the Microservice Architecture be used?
 
 
-  Solution :    
+  Solution :    When we want to use multiple technology stacks for development of the application.
+When we need to develop scalable, business-level applications that frequently undergo modifications.
 
 
 
