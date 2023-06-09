@@ -13,6 +13,7 @@ This repo includes:
  
    [Topic ----> Distributed Systems](https://github.com/bireswarghosh/system-design-question-answer/blob/main/Topic%20----%3E%20Distributed%20Systems)
 
+   [Topic ----> Application Characteristics -I](https://github.com/bireswarghosh/system-design-question-answer/blob/main/Topic%20----%3E%20Application%20Characteristics%20-I)
 
 
 
