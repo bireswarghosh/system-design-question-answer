@@ -1,0 +1,155 @@
+
+Topic ----> Distributed Systems
+
+
+
+
+Question-1)    Which systems should be designed as distributed:
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+Data intensive systems
+High computational power systems
+Systems having exponentially high number of clients
+All of the above
+ 
+
+ Solution -:          All of the above                                                                                                                                                                   1  B
+ 
+
+
+Question-2)Which among the following is an application of Distributed Systems?
+You have max 2 attempts to score in this question.
+Attempts left:
+2/2
+Options
+This problem has only one correct answer
+Both B and C
+Telephone/Cellular Network
+Multiplayer online games
+ 
+
+ Solution -:    Both B and C
+
+
+
+
+Question-3) Which of the following is true for distributed systems:
+You have max 2 attempts to score in this question.
+Attempts left:
+2/2
+Options
+This problem has only one correct answer
+The nodes are not connected via network calls
+Commodity hardware should never be used
+For user it appears as a single system
+For user it should appear as different systems
+  
+
+ Solution -:    For user it appears as a single system
+
+
+
+
+Question-4) Network issues and Commodity Hardware were responsible for the failure of:
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+Monolithic systems
+Distributed systems
+
+ 
+  Solution -:      Distributed systems
+
+
+
+
+Question-5) Redundancy and replication were introduced as solution for which of the following:
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+Monolithic systems
+Distributed systems
+
+ 
+  Solution -:    2
+
+
+
+
+
+Question-6) Practice Question
+ 
+How replication can help in avoiding data loss in the distributed systems?
+
+
+  Solution :    In a distributed system environment since nodes can be geographically distributed, a node can crash due to any reason such as natural disasters, power failures or scalability issues. Since the data is replicated on multiple servers , these replicas provide the backup and can take over avoiding the single point of failure for data.)
+
+
+
+Question-7)  The monolithic application could be a centralized application if there is only one single owner of the application?
+
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+True
+False
+
+
+  Solution :    1
+
+
+
+
+
+
+Question-8)  Which of the following is true for centralized and decentralized applications?
+
+You have max 2 attempts to score in this question.
+Attempts left:
+2/2
+Options
+This problem may have one or more correct answers
+A Centralized application is controlled by a single central authority
+A Decentralized application has no single authority and control is distributed among different authorities.
+A centralized application has no single authority and control is distributed among different authorities.
+A Decentralized application is controlled by a single central authority.
+In Centralized systems, the authority can lie on cluster of systems.
+
+
+  Solution :    1   2     5
+
+
+
+
+
+ 
+
+
+
+
+  
+  
+           |
+           |
+           |
+          \|/
+|=|================================|=|
+|=|     # THANK YOU FOR SEE IT     |=|
+|=|         # PLEASE FOLLOW        |=|
+|=|   # STAR MY REPOSITORY ⭐ !!!  |=|
+|=|================================|=|
+ 
+ 
+
+
+
+
