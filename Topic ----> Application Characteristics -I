@@ -1,0 +1,459 @@
+
+Topic ----> Application Characteristics -I
+
+
+
+
+Question-1)    Latency is measured in which of the following units:
+You have max 2 attempts to score in this question.
+Attempts left:
+2/2
+Options
+This problem has only one correct answer
+Milliseconds
+Mbps
+Byte
+Volts
+ 
+
+ Solution -:    1                                                                                                                                                                         1  B
+ 
+
+
+Question-2)Which of the following is not an example of latency ?
+You have max 2 attempts to score in this question.
+Attempts left:
+2/2
+Options
+This problem has only one correct answer
+Time taken to retrieve data from a database
+Time taken to display a message on screen
+Amount of data saved in the database
+Time taken for a form to get saved online
+ 
+
+ Solution -:   3 
+
+
+
+
+Question-3)Assignment - 1
+We all might have worked with the ping command, it sends Internet Control Message Protocol (ICMP) packets to the mentioned host and returns the latency between us and the named host in milliseconds.)
+In the following example, www.codingninjas.com address is passed to the command prompt and we can observe that the average round trip time taken is 4ms.
+[img atru = "On Command Prompt
+
+Microsoft Windows [Version 10.0.19842.1052]
+'(c) Microsoft Corporation. All rights reserved.
+IC: \Users\ishuc>ping www.codingninjas.com
+Pinging www.codingninjas.com [13.35.131.109] with 32 bytes of data:
+Reply from 13.35.131.109: bytes-32 time=4ms TTL-246
+Reply from 13.35.131.109: bytes 32 time=6ms TTL-246
+Reply from 13.35.131.109: bytes=32 time=4ms TTL=246
+Reply from 13.35.131.109: bytes-32 time=4ms TTL-246
+Ping statistics for 13.35.131.109:
+Packets: Sent - 4, Received - 4, Lost - 0 (0% loss),
+Approximate round trip times in milli-seconds:
+Minimum - 4ms, Maximum - 6ms, Average = 4ms
+c: \Users\ishuc>.
+"
+  
+
+ Solution -:   We can improve the Latency by working upon the following steps:
+
+1. Internet connection type - For most part, satellite internet tends to have higher Latency while cable and fibre internet tend to have lower Latency.
+
+2. Propagation delay - propagation is the action of sending out your data packets to a server.
+
+3. Distance - Distance here refers to the distance between your computer and the servers from which your computer is requesting information from. Distance is main cause for Latency.
+
+4. Router - slow router can affect the computer’s connection to your internet provider’s modem.
+
+5. Use of CDN or caching - By creating CDN servers (or buffer or cache servers) all over the world, which are connected to the parent hosting server. These servers carry static files of the website, as cached data and depending upon the location of the client, the nearest located CDN server fulfils the request of the client. Hence, this can increase the latency of a system.
+
+6. Preference over Distributed system over Monolithic system. 
+
+
+
+
+Question-4) Which of the following is not true for latency?
+You have max 2 attempts to score in this question.
+Attempts left:
+2/2
+Options
+This problem has only one correct answer
+It is caused by network congestion
+High latency is good for applications
+Low configuration of the system can cause higher latency
+It is measured in the unit of time.
+
+ 
+  Solution -:    2
+
+
+
+
+Question-5) Distributed systems always have lower latency than monolithic systems.
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+True
+False
+Hurray! Correct Answer
+Solution Description
+The following factors can contribute to the high latency of the distributed systems-
+
+1. Unlike monolithic systems, the content in distributed systems is available on more than one machine, for which requests will take time to complete a request. 
+
+2. The round trip time increases in distributed systems due to locations of servers all over different continents.
+
+3. For the high number of users (as in the case of distributive systems), the response time also increases.
+
+ 
+  Solution -:    2
+
+
+
+
+
+Question-6)CDN Stands for:
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+Content Distribution Network
+Cache Delivery Network
+Content Delivery Network
+Content Delivery Node
+
+
+  Solution :    3
+
+
+
+Question-7)  Content delivery network is the cause of high latency.
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+True
+False
+
+
+  Solution :    1
+
+
+
+
+
+
+Question-8)  Practice Question - 1
+ 
+Let us consider an e-commerce website that gets 200 HTTP requests on average. In normal settings, a browser is able to generate 4 simultaneous requests. Also, consider that the average network round trip time is about 150ms. Using this information calculate the overall latency, i.e. the overall page load time for an e-commerce website.
+Specify answer in seconds.
+ 
+
+ 
+Solution Description
+Given the above 3 pieces of information, we can easily calculate the overall website latency. The following formula can be used:
+(Http request/ Simultaneous browser request)* network latency (in ms) = Page load time (in ms)
+= (200/4)*150 =7500ms or 7.5sec
+
+
+  Solution :    7.5sec
+
+
+
+
+
+
+
+Question-9)  Which of the following is not true?
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+Low latency can lead to high throughput.
+Time taken to complete a request is throughput
+Hurray! Correct Answer
+Solution Description
+Low latency will decrease the completion time of a request and it can result in high throughput. If the latency is low, more number of request would be processed in lesser amount of time. Hence, option (a) is true.
+
+The total number of requests processed per unit of time is throughput. Hence, option (b) is not true.
+
+
+  Solution :    2
+
+
+
+
+
+Question-10)  Assignment - 2
+ ck
+Can you think of some applications for which it is necessary to have high throughput?
+ 
+
+Type here
+Solution Description
+Since high throughput also means a high amount of data being processed per unit of time some of the examples are :
+1. Simulation applications  testing the functionality of aeroplane parts, cars.
+2.  Cryptocurrency mining applications.
+
+
+  Solution :   1. Simulation applications  testing the functionality of aeroplane parts, cars.
+2.  Cryptocurrency mining applications.
+ 
+
+
+
+
+
+
+
+
+
+
+Question-11)  Which of the following is true for throughput?
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem may have one or more correct answers
+Estimation of the throughput of an application plays an important role in designing the system.
+Distributed systems with load balancers can increase the throughput.
+Monolithic systems have better throughput than distributed systems
+Resources available on a machine can affect the throughput of a system
+Hurray! Correct Answer
+Solution Description
+Estimation of the throughput of an application plays an important role in designing the system, as it will help in understanding the effectiveness of the system. A system with high throughput would lead to high performance and capacity, which nowadays are the requirement for almost all systems. Hence, option (a) is correct.
+
+Distributed systems with load balancers can increase the throughput, as load balancers will increase the output by diving the requests among the systems considering the optimal use of time. Hence, option (b) is also correct.
+
+In case of monolithic systems, there is only a single machine, which results in fixed or limited throughput. Whereas in case of distributed systems, there is no limitation on the availability of resources, hence the throughput will be higher. Therefore, option (c) will be incorrect.
+
+Resources available on a machine can affect the throughput of a system in terms of request computation. Hence, option (d) is correct.
+
+
+
+  Solution :    1   2   4
+
+
+
+
+
+
+
+
+Question-12)  Number of instructions processed by a system in a certain amount of time is an example of:
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+Latency
+Throughput
+
+
+  Solution :    2
+ 
+
+
+
+
+
+Question-13)  Which of the following can improve the throughput of the system?
+You have max 2 attempts to score in this question.
+Attempts left:
+2/2
+Options
+This problem has only one correct answer
+Using Content Delivery Network
+Resolving performance bottlenecks
+Caching
+All of the above
+
+Solution Description
+1. The CDN are group of geographically distributed group of servers which work together to provide fast delivery of internet content. Hence, it will result in higher throughput.
+2. Proper monitoring and fixing all the performance bottlenecks increase the system’s response which results in higher throughput.
+3. Cache memory holds frequently used instructions/data which the processor may require next and it is faster access memory than RAM, since it is on the same chip as the processor. Therefore, it increases the performance of the system and result in higher throughput.
+
+Hence, option (d) will be correct.
+
+
+  Solution :    4
+
+
+
+
+
+
+
+
+Question-14) Practice Question - 2
+ 
+An assembly line is manufacturing chairs. It takes 4hours to manufacture a chair and in a day 168 chairs are produced. Can you identify the latency and throughput using the above information? (Specify Latency in hours and Throughput in chairs/hour.)
+Answer should contain two integers separated by a comma.
+
+
+Note: Write answers separated by commas and avoid the use of spaces.
+
+Solution Description
+Latency: Latency is the amount of time in milliseconds (ms) it takes a single message to be delivered. 
+Here, Time taken for manufacturing a chair: 4 hours
+Therefore, Latency = 4 hours
+
+Throughput: Throughput is the amount of data that is successfully transmitted through a system in a certain amount of time, measured in bits per second (bps). Throughput is a measurement of how much is actually transmitted, and it is not the theoretical capacity (bandwidth) of the system. 
+
+Here, Number of chairs produced in 1 day : 168 chairs
+Throughput =  Number of requests / Total time taken
+= 168 chairs / 1 day
+= 168 chairs / 24 hours
+= 7 chairs/hour
+
+
+
+  Solution :  4,7  
+
+
+
+
+
+
+
+Question-15)  Which of the following can cause low availability ?
+You have max 2 attempts to score in this question.
+Attempts left:
+2/2
+Options
+This problem has only one correct answer
+Hardware failure
+Software bugs
+Servers crashing due to high load of requests
+All of the above
+
+
+  Solution :    4
+
+
+
+
+
+
+
+
+Question-16)  Which of the following statement is false?
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+Monolithic systems have higher availability than distributed systems.
+Monolithic systems have lower availability than distributed systems.
+Distributed systems can increase the availability by using redundancy and replication.
+Single point of failure usually leads to low availability.
+
+
+Solution Description
+Monolithic systems have lower availability than distributed systems, as in the case of a monolithic system there is a single machine. If the machine goes down, the complete application can go down, leading to low availability. The reliability in the case of a single machine decreases, whereas in the case of distributed systems the computation and network calls can be computed through a series of systems. Hence option(a) will be false and option (b) will be true.
+
+In order to handle failure gracefully and make the system highly available through partition tolerance, we could use redundancy and replication. Hence, option (c) will be correct.
+
+A single point of failure usually leads to lower availability, as that part is non-redundant and if it fails, the complete application or the system can go down. Hence, a single point of failure should be ideally avoided.  Option (d) will also be correct.
+
+
+  Solution :    1
+
+
+
+
+
+
+
+Question-17) Which of the following can help in improving the availability of an application ?
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+Decreasing the down time
+Making system more fault tolerant
+Actively monitoring the application
+All of the above
+Hurray! Correct Answer
+Solution Description
+In order to make the system more available, we can take care of the following points.
+
+1. Regularly updating the servers, identifying the vulnerability and hence decreasing the downtime.
+2. Making the system highly reliable, by handling failures gracefully and incorporating fault tolerance. Fault tolerance could be done using Replication and Redundancy. Also, by actively monitoring the system.
+3. We should actively monitor the application to take prompt actions whenever required, to avoid any crashes.
+
+
+
+  Solution : Therefore, option (d) will be correct. 
+    
+
+
+
+
+
+
+
+
+Question-18)  How are fault tolerance and availability related?
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+High fault tolerance leads to high availability
+High availability leads to high fault tolerance
+They are not related
+Hurray! Correct Answer
+Solution Description
+The ability of a system to tolerate a fault insures that the system will be more available. Hence, high fault tolerance leads to high availability.
+
+Whereas, high availability will not always mean that the system is fault-tolerant. Though fault tolerance can be one of the aspects of availability, there can be other aspects as well, like introducing redundancy,  high processing, more storage, etc.
+
+
+
+  Solution :    Hence, option (a) will be correct.
+
+
+
+
+
+
+Question-19)  Practice Question - 3
+ 
+Do you think availability can impact the business done by an application? How?
+
+
+  Solution :    Solution Description
+Availability means that the application should be accessible and functional for the clients. To achieve a competitive advantage high availability is necessary as even a small downtime can result in loss of clients and bad reputation for the application. Also, when an application is down the productivity of employees also decreases.
+Eg: consider an application which iaims for 99% availability, which means 87 hours or 3.62 days for downtime per year. This can lead to significant loss in productivity and customers especially if the downtime is at peak hours of business. 
+According to a report,  a 30min outrage in 2013 for Amazon.com reportedly cost the company nearly $2billion.
+
+
+
+
+ 
+  
+           |
+           |
+           |
+          \|/
+|=|================================|=|
+|=|     # THANK YOU FOR SEE IT     |=|
+|=|         # PLEASE FOLLOW        |=|
+|=|   # STAR MY REPOSITORY ⭐ !!!  |=|
+|=|================================|=|
+ 
+ 
+
+
+
+
