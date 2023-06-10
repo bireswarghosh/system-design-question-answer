@@ -1,0 +1,446 @@
+
+TOPIC ----> Application Characteristics -II
+
+
+
+
+Question-1)    What do you mean by consistency?
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+When the application is never down
+When there is no lag in the response
+When each client gets the same data
+When the data is always available to the client
+Hurray! Correct Answer
+Solution Description
+When more than one client requests the system, for all such requests, it will be called consistent when each client gets the same data. The data should always be consistent, regardless of who is accessing it.
+ 
+
+ Solution -:     Hence, option (c) will be correct.
+                                                                                                                                                                        1  B
+ 
+
+
+Question-2)MCQ - 2
+Send Feedback
+What leads to dirty read?
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+Slow processing of data
+Reading old data
+Reading latest data
+Writing old data
+Hurray! Correct Answer
+Solution Description
+When more than one client requests the system, for all such requests, when different clients get different responses due to some recent update that has not been committed to all systems yet, this reading operation will be called dirty read.
+ 
+
+ Solution -:    Hence, option (b) will be correct.
+
+
+
+
+
+Question-3)MCQ - 3
+Send Feedback
+Why do you think Monolithic systems are natively consistent?
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+Less clients can read data
+Data is present on a single machine
+Code is comparatively simple
+Less network calls
+Hurray! Correct Answer
+Solution Description
+In the case of a monolithic system, there is only one system involved. Hence, for any request, the retrieval will be involved from only a single system, which ensures consistency. 
+  
+
+ Solution -:    Hence, option (b) will be correct.
+
+
+
+
+
+Question-4)Which of the following is true about improving consistency?
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+In distributed systems, we should stop the write operation while the replica systems are getting updated.
+In distributed systems, we should stop the read operation while the replica systems are getting updated.
+Reducing the network bandwidth.
+Data centres should not be situated near to each other.
+Hurray! Correct Answer
+Solution Description
+We should stop the read operation in distributed systems while the replica systems are getting updated. This process will ensure that the data fetched from all the systems are consistent and reliable. If some systems have got updated with the latest data while the remaining systems are still getting updated, it may lead to a dirty read. 
+
+ 
+  Solution -:    Hence, option (b) is correct.
+
+
+
+
+Question-5) Practice Question - 1
+Send Feedback
+Can you think of the implications if the online banking applications are not consistent?
+
+ 
+  Solution -:    Solution Description
+Let us consider a case to understand it. Suppose a person withdraws all the money from his bank account. The bank should update this transaction into its database and all the other branches of the bank so that everyone gets the same accurate information and does not allow any more withdrawal from the same account.
+
+
+
+
+
+Question-6)Locking down of nodes, till all are updated with latest data is done in:
+You have max 2 attempts to score in this question.
+Attempts left:
+2/2
+Options
+This problem has only one correct answer
+Strong consistency
+Eventual consistency
+
+Solution Description
+Locking down nodes, till all are updated with the latest data will ensure that there will be no dirty read. This will make the system strongly consistent.
+
+
+  Solution :   Hence, option (a) will be correct.
+ 
+
+
+
+Question-7)  In eventual consistency, some of the systems might hold old data for a brief amount of time. State whether the statement is true or false.
+You have max 2 attempts to score in this question.
+ 
+Options
+This problem has only one correct answer
+True
+False
+Hurray! Correct Answer
+Solution Description
+The Strong Consistency offers up-to-date data but at the cost of high latency. This happens because when we make consistency strong, then we block all the read from redundant systems when the updated are in the process, to avoid dirty read, which eventually results in higher latency. 
+Whereas if we talk about Eventual consistency, it offers low latency but may reply to read requests with stale data since all nodes of the database may not have the updated data.
+
+
+  Solution :   Hence, the statement will be true.
+ 
+
+
+
+
+
+
+Question-8)  Which of the following can have eventual consistency?
+You have max 2 attempts to score in this question.
+Attempts left:
+ 
+Options
+This problem has only one correct answer
+Social media applications
+Flight ticket booking applications
+Hurray! Correct Answer
+Solution Description
+Social media applications can be eventually consistent. This happens because the post made over social media is not simultaneously updated on all the servers. Still, users are allowed to read the previous posts for that period. In contrast, flight ticket booking applications will be strongly consistent, as two passengers should not be allowed to book the same seat if they are making the booking for the same seat. Therefore, we block the seat when the booking confirmation is made.
+
+
+  Solution :     Hence, option (a) will be correct.
+
+
+
+
+
+
+
+Question-9)  Which of the following is true about distributed systems :
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+Partition tolerance is very important, hence we must choose one from consistency or availability.
+Consistency, availability and partition tolerance all can be high for a system.
+It only helps in designing the monolithic systems.
+Consistency cannot be compromised, so we must choose one from availability and partition tolerance.
+Hurray! Correct Answer
+Solution Description
+As per the CAP theorem, Partition tolerance is an important aspect that cannot be neglected; therefore, between consistency and availability, we must choose one. Hence, option (a) will be correct. Also, option (d) will be incorrect as the importance of consistency can be decided depending on the type of application we want to build.
+
+We can achieve only two things simultaneously among consistency, availability, and partition tolerance. Hence, option (b) will be incorrect.
+
+Option (c) is irrelevant in terms of distributed systems.
+
+
+  Solution :     Hence, option (a) will be correct.
+
+
+
+
+
+Question-10)  MCQ - 9
+Send Feedback
+Which of the following is true for network partition?
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+It happens when the network is divided on the basis of speed.
+It means decomposition of the network into LAN, WAN MAN.
+It means dividing the network into groups of nodes having same function.
+It happens when a node goes down or get disconnected from the network.
+Hurray! Correct Answer
+Solution Description
+When the network is divided based on speed, it will be termed bandwidth. Therefore, option (a) will be incorrect.
+
+The decomposition of a network in terms of LAN, WAN & MAN is done to characterize the network based on the geographical expansion. Therefore, option (b) will also be incorrect.
+
+Dividing the network into a group of nodes having the same functions is related to the concept of Modularity. Therefore, option (c) is also incorrect.
+
+In distributed systems, when a node goes down or gets disconnected from the network, it will be called partitioned from the network.  
+
+
+  Solution :    Therefore, option (d) will be correct.
+
+
+
+
+
+
+
+
+
+
+Question-11)  MCQ - 10
+Send Feedback
+Strong consistency may lead to low availability. State whether the following statement is true or false.
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+True
+False
+Hurray! Correct Answer
+Solution Description
+Since to achieve strong consistency the nodes are locked or shut down, so that data cannot be read from it, which may lead to low availability of the application.
+
+
+  Solution :    true
+
+
+
+
+
+
+question - 12) Match the correct options - 1
+Send Feedback
+Match the characteristic which should be preferred for the following applications:
+a. Blogs website                             1. Availability 
+b. Multiplayer online games          2. Consistency
+c. Stock trading platforms
+d. Video streaming sites
+e. Flight ticket booking system
+f. Video chat applications
+ 
+Options
+This problem has only one correct answer
+a.1 b.1. c.2 d.1 e.2 f.1
+a.2 b.1. c.2 d.1 e.1 f.1
+a.1 b.2. c.2 d.1 e.2 f.2
+a.1 b.2. c.1. d.1 e.2 f.1
+
+
+
+answer::   Hence, option (a) will be correct. 
+
+
+
+
+Question-13)  MCQ - 11
+Send Feedback
+Which of the following is true?
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem may have one or more correct answers
+Time helps us to identify which event occurred first.
+Physical clocks can be easily trusted for distributed systems.
+Logical time plays an important role as different nodes can be placed in different geographical locations.
+Monolithic systems do not always need logical time.
+Hurray! Correct Answer
+Solution Description
+Time helps us to identify which event occurred first. This option is correct.
+
+For distributed system, logical time will be a more reliable option, as logical time doesn’t depend upon the limitations possessed by geographical dependencies of physical time. When using logical time,  the process marks its events, and there is a protocol to update after each local event. Therefore, we can conclude that physical clocks are unsuitable for distributed systems. Hence, option (b) will be incorrect.
+
+Logical time plays an important role as different nodes can be placed in different geographical locations. This statement is correct because logical time is not affected by geographical dependencies, as in the case of physical time, which is changed based on various time zones. Hence, option (c) will also be correct.
+
+Monolithic systems do not always need logical time, as a monolithic application might not require more than one system. All the events happen on one machine, and they could be monitored using physical time concerning the particular machine.
+
+
+  Solution :    1  3   4
+ 
+
+
+
+
+
+Question-14)  MCQ - 12
+Send Feedback
+What are the challenges of using physical time?
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+Physical clocks may not be helpful to identify sequence of events in distributed systems.
+Nodes in different geographical location might follow different time zones
+Network delay can change the original sequence of events.
+All of the above
+Hurray! Correct Answer
+Solution Description
+Physical clocks may not help identify the sequence of events in distributed systems. This statement is true.
+
+Nodes in the different geographical locations might follow different time zones; hence it is helpful to use the concept of logical time for such systems. This statement will also be true.
+
+Network delay can change the original sequence of events, a very big challenge for distributed systems located at various geographical locations. Hence, this statement will also be true.
+
+
+
+
+  Solution :    Hence, the correct option will be an option (d).
+
+
+
+
+
+
+
+Question-15) Logical time is divided into:
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem may have one or more correct answers
+Logical global time
+Logical physical time
+Logical local time
+Hurray! Correct Answer
+Solution Description
+Based on the location of the system, the logical time will be divided into global and local time. 
+Logical local time - This happens when we consider a particular system. This doesn't concern the processes of the systems which will be located geographically at the different locations. 
+The process marks its own event.
+Protocol used to update after each local event
+Logical global time - In this case, we consider more than one system that is geographically apart. It contains information about the logical global time, which is absent in the previous case.
+Logical info about global time.
+Protocol used to update when process exchanges data.
+
+
+
+  Solution : Hence, options (a) and (c) will be correct.
+   
+
+
+
+
+
+
+
+Question-16)  Which of the following is true?
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+Local event happen within the machine.
+Process mark its own event when running on the machine, this time is known as logical local time.
+Lamport clock is one of the algorithm to implement logical time.
+All of the above
+Hurray! Correct Answer
+Solution Description
+When we consider an event with respect to a  system within which the event is occurring, this event will be called Local event. Therefore, option (a) will be correct.
+
+In logical local time, the process marks its own event and there exist a protocol to update the process after each local event. Therefore, option (b) will also be correct.
+	
+Lamport clock was found in 1978, which is an algorithm to implement logical time. It is based on partial ordering of events. Therefore, option (c) will also be correct.
+
+
+
+  Solution :   Hence, the correct answer will be option (d).
+ 
+
+
+
+Question-17)Which of the following is true regarding Lamport clock?
+You have max 2 attempts to score in this question.
+Attempts left:
+0/2
+Options
+This problem may have one or more correct answers
+Each process uses a global counter.
+As the event happens, process increments the counter
+Events can be categorized as ‘send’ events or ‘receive’ events.
+Send events carries its own timestamp + 1 .
+
+
+answer:  option b and c
+
+
+
+
+Question-18)  Assignment - 1
+Send Feedback
+Let's suppose we have the task to synchronise the order and the customer between two systems such as an ERP and an online shopping application, wherein:
+The customer can log into the app, select products and place orders.
+Every order will have the reference of its customer so that the order cannot be created before the customer in ERP.
+So two separate paralleling running integration processes are created :
+Process P1 to synchronise the customer
+Process P1 to synchronise the order
+Since these two processes are running parallel, there could be a situation when the order arrives before the corresponding data of the customer.
+This situation would prevent the order from being created in the ERP system and may lead to blocking the system not allowing any further processing.
+What can be the solution for this case, knowing that we still need to maintain the consistency of the system and strong consistency is not preferred?
+
+
+
+  Solution :    Solution Description
+While trying to synchronise the order in the ERP when the customer detail for that order has not been received, we can simply postpone the processing of the order for a short while. Due to this, the parallel process will get the time to synchronise the customer and the corresponding customer details will eventually be synched with the ERP. This is where eventual consistency helps the system.
+
+
+
+
+
+
+
+
+
+
+                                                                       ~© By Bireswar Ghosh
+  
+  
+           |
+           |
+           |
+          \|/
+|=|================================|=|
+|=|     # THANK YOU FOR SEE IT     |=|
+|=|         # PLEASE FOLLOW        |=|
+|=|   # STAR MY REPOSITORY ⭐ !!!  |=|
+|=|================================|=|
+ 
+ 
+
+
+
+
