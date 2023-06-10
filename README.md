@@ -18,7 +18,10 @@ This repo includes:
    [TOPIC ----> Application Characteristics -II](https://github.com/bireswarghosh/system-design-question-answer/blob/main/TOPIC%20----%3E%20Application%20Characteristics%20-II)
 
    [Topic ---- Scaling Techniques - I](https://github.com/bireswarghosh/system-design-question-answer/blob/main/Topic%20----%20Scaling%20Techniques%20-%20I)
-
+        
+        
+        
+            upcoming topic answers update coming soon 🔜 
 
 
  
