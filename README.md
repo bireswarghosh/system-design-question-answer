@@ -15,6 +15,7 @@ This repo includes:
 
    [Topic ----> Application Characteristics -I](https://github.com/bireswarghosh/system-design-question-answer/blob/main/Topic%20----%3E%20Application%20Characteristics%20-I)
 
+   [TOPIC ----> Application Characteristics -II](https://github.com/bireswarghosh/system-design-question-answer/blob/main/TOPIC%20----%3E%20Application%20Characteristics%20-II)
 
 
 
