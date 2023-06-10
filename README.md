@@ -23,20 +23,10 @@ This repo includes:
 
  
   
-
-
                                             ~© By Bireswar Ghosh
   
-  
-           |
-           |
-           |
-          \|/
-|=|================================|=|
-|=|     # THANK YOU FOR SEE IT     |=|
-|=|         # PLEASE FOLLOW        |=|
-|=|   # STAR MY REPOSITORY ⭐ !!!   |=|
-|=|================================|=|
+ 
+     
  
  
 
