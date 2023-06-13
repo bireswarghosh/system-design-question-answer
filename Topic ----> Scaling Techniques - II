@@ -1,0 +1,486 @@
+
+Topic ----> Scaling Techniques - II
+
+
+
+
+Question-1)    Which of the following is/are taken care by the load balancer:
+You have max 2 attempts to score in this question.
+Attempts left:
+0/2
+Options
+This problem may have one or more correct answers
+To check if servers are in running condition
+To allocate the client requests equally to different servers
+To make sure some server is not overloaded with requests
+Computing and storing power of the system
+ 
+
+ Solution -:       1  2  3                                                                                                                                                                       1  B
+ 
+
+
+Question-2)MCQ - 2
+Send Feedback
+How adding Load balancer leads to high availability
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+It passes the messages fast to the clients
+If a server is down, load balancer transfer the request to another healthy server
+It adds more latency to the system
+It does not affect the availability of the system
+ 
+ 
+
+ Solution -:    2
+
+
+
+
+Question-3)When should a load balancer not be used:
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem may have one or more correct answers
+When we need to horizontally scale an application
+When we are using monolithic applications
+When an application running on a single system is vertically scaled
+When we have multiple servers
+  
+
+ Solution -:    2  3
+
+
+
+
+Question-4)Load balancers can be placed between:
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+Client application/ user and the web server
+Application servers and database servers
+Web server and application server
+All of the above
+
+ 
+  Solution -:    4
+
+
+
+
+Question-5) Which of the following is true for load balancers:
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem may have one or more correct answers
+It leads to faster response time
+It leads to delayed response time
+It leads to low down time
+It can predict traffic bottlenecks
+
+ 
+  Solution -:    1  3  4
+
+
+
+
+
+Question-6)How is load balanced if round robin algorithm is used for equal capacity servers:
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+Servers are allotted requests randomly
+Servers are allotted requests sequentially
+
+
+  Solution :    2
+
+
+
+Question-7)  Which of the following is true for IP hash algorithm:
+You have max 2 attempts to score in this question.
+Attempts left:
+0/2
+Options
+This problem may have one or more correct answers
+It is used for servers having different capacities
+Hash function is used to identify the server which would be allocated the request
+Hash function is applied on the IP address of the client which generated the request
+Hash function is applied on IP address of the servers
+
+
+
+  Solution :    2    3
+
+
+
+
+
+
+Question-8)  What are the challenges of using load balancer:
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+It leads to low availability
+It can be a single point of failure
+It decreases the scalability of the system
+It might not be able to detect unhealthy servers
+
+
+  Solution :    2
+
+
+
+
+
+
+
+Question-9)  Which of the following is improved by using cache:
+You have max 2 attempts to score in this question.
+Attempts left:
+2/2
+Options
+This problem may have one or more correct answers
+Connectivity
+Throughput
+Latency
+Availability
+
+
+  Solution :    2,3,4 are correct
+
+
+
+
+
+Question-10)  Caching helps in reducing
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+Database read calls
+External API calls
+Network I/O calls
+All of the above
+
+
+  Solution :    4
+
+
+
+
+
+
+
+
+
+
+Question-11)  Which of the following is true:
+You have max 2 attempts to score in this question.
+Attempts left:
+2/2
+Options
+This problem may have one or more correct answers
+CDN usually caches the static content
+CDN stands for caching delivery network
+CDN is a type of caching mechanism
+
+
+  Solution :    1    3  
+
+
+
+
+
+
+
+
+Question-12)  Which of the following is true:
+You have max 2 attempts to score in this question.
+Attempts left:
+2/2
+Options
+This problem has only one correct answer
+Data is stored in ROM in case of local memory
+Multiple machines have common in-memory or local memory
+Distributed cache can be used if multiple machines wants to share cache
+
+
+  Solution :    3
+ 
+
+
+
+
+
+Question-13)  For an ecommerce application saving cart details of the customers, which cache should be used :
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+In memory cache
+Distributed cache
+Local cache
+
+  Solution :    2
+
+
+
+
+
+
+
+
+Question-14) When should caching be not used:
+You have max 2 attempts to score in this question.
+Attempts left:
+2/2
+Options
+This problem may have one or more correct answers
+When the data is changing frequently
+When the data is not changing frequently
+If the application is read intensive
+If the application is write intensive
+
+
+  Solution :    so 1,4 are correct
+
+
+
+
+
+
+
+Question-15)  Caching reduces the network call to the database, and it speeds up the performance of the system.
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+True
+False
+
+
+  Solution :   True 
+
+
+
+
+
+
+
+
+Question-16)  Which of the following is true for write through cache strategy:
+You have max 2 attempts to score in this question.
+Attempts left:
+2/2
+Options
+This problem may have one or more correct answers
+Data is simultaneously written in cache and the database
+It makes write intensive applications faster.
+It leads to high consistency
+
+
+  Solution :    SO yes 1 and 3 are correct.
+
+
+
+
+
+
+
+Question-17)  When data is not found in the cache, it is known as ______ ? (Fill the answer in smallcase)
+
+
+
+  Solution :    cache miss
+
+
+
+
+
+
+
+
+Question-18)  Which of the following is true for write around cache strategy:
+You have max 2 attempts to score in this question.
+Attempts left:
+2/2
+Options
+This problem may have one or more correct answers
+For each write operation, write is only performed once directly to the database
+Should not be used for write intensive applications
+It leads to higher chances of cache miss
+Read operations become faster.
+
+
+  Solution :    1    3
+
+
+
+
+
+Question-19)  Which of the following cache eviction strategies evicts the data randomly:
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+LRU (Least Recently Used)
+RR (Random Replacement)
+MRU (Most Recently Used)
+LIFO (Last In First Out)
+
+
+  Solution :  2  
+
+
+
+
+
+Question-20) Which of the following solutions can be used by e-blogging application to improve its performance:
+You have max 2 attempts to score in this question.
+Attempts left:
+2/2
+Options
+This problem has only one correct answer
+Using cache at Back end
+Using CDN to provide images, videos, CSS etc.
+Using cache in the client’s browser
+All of the above
+
+
+
+  Solution :    4
+
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! Assignment !!!!!!!!!!!!!!!!
+
+ 
+Part A
+Send Feedback
+If you have to design a cache for Twitter, what is the estimated amount of the data that needs to be cached?
+Answer
+ 
+
+Type here
+Solution Description
+Since it's a large-scale application used by millions of people , we can estimate it to be in some TBs.)
+
+
+
+
+
+
+
+
+
+
+
+Part B
+Send Feedback
+If you have to design a cache for Twitter, which cache eviction strategy should be used?
+Answer
+ 
+Type here
+Solution Description
+Since new entries might not get space in the cache until we remove some previous entries, implementing an eviction strategy is an important part. Eviction strategies selection mainly depend on the access pattern we want to implement. For this example, we can choose LRU  as it will remove the least recently used entry from the cache.
+
+
+
+
+
+
+
+
+
+
+
+
+Part C
+Send Feedback
+If you have to design a cache for Twitter, which caching strategy should be used?
+Answer
+ 
+Type here
+Solution Description
+ Since Twitter can be considered as a write intensive application, using write around cache seems a good solution. Write around cache writes directly into the database ensuring low write load on the cache and making the write request fasts. 
+
+
+
+
+
+
+
+
+
+
+
+
+Part D
+Send Feedback
+If you have to design a cache for Twitter, what kind of QPS (query per second) we expect from the system?
+Answer
+ 
+Type here
+Solution Description
+A single machine might be able to handle 1M queries per second, if we go beyond that we may face high latency as queries received may not be answered quickly.
+
+
+
+
+
+
+
+
+
+
+
+
+Part E
+Send Feedback
+If you have to design a cache for Twitter, out of consistency and availability, which is more important for this system?
+Answer
+ 
+Type here
+Solution Description
+Unavailability in the caching system means more cache miss which would again lead to high latency as read would be done from disk, taking more time.  So, out of both the above-mentioned metrics, we should go for availability. Eventual consistency can be used in this scenario.
+
+
+
+
+
+
+
+  
+                                                      ~© By Bireswar Ghosh
+  
+  
+           |
+           |
+           |
+          \|/
+|=|================================|=|
+|=|     # THANK YOU FOR SEE IT     |=|
+|=|         # PLEASE FOLLOW        |=|
+|=|   # STAR MY REPOSITORY ⭐ !!!  |=|
+|=|================================|=|
+ 
+ 
+
+
