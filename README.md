@@ -25,6 +25,11 @@ This repo includes:
    [Topic ----> Database](https://github.com/bireswarghosh/system-design-question-answer/commit/5941cbe9ad5434bea1c182d33029205a5b862cc9)
         
         
+   [Topic ----> Communication](https://github.com/bireswarghosh/system-design-question-answer/blob/main/Topic%20----%3E%20Communication)     
+        
+        
+        
+        
             upcoming topic answers update coming soon 🔜 
 
 
