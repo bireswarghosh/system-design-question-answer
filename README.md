@@ -22,7 +22,7 @@ This repo includes:
 
    [Topic ----> Scaling Techniques - II](https://github.com/bireswarghosh/system-design-question-answer/commit/3bc403f94c72730c4b43b27093c83ff413b76ac4)
 
-   [Topic ----> Database](https://github.com/bireswarghosh/system-design-question-answer/commit/5941cbe9ad5434bea1c182d33029205a5b862cc9)
+   [Topic ----> Database](https://github.com/bireswarghosh/system-design-question-answer/blob/main/Topic%20----%3E%20Database)
         
         
    [Topic ----> Communication](https://github.com/bireswarghosh/system-design-question-answer/blob/main/Topic%20----%3E%20Communication)     
