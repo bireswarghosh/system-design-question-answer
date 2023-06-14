@@ -1,0 +1,629 @@
+
+Topic ----> Database
+
+
+
+
+Question-1)    Which of the following are true for file-based storage systems?
+You have max 2 attempts to score in this question.
+Attempts left:
+2/2
+Options
+This problem has only one correct answer
+It has in-built high security features
+It leads to data redundancy and inconsistency
+It provides high data integrity
+All of the above
+ 
+
+ Solution -:     Hence, the correct option will be (b).                                                                                                                                                                        1  B
+ 
+
+
+Question-2)If you are provided with a large number of confidential user details, a File-Based storage system should be used to store it.
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+True
+False
+ 
+
+ Solution -:    False
+
+
+
+
+Question-3)Which of the following is/are true?
+You have max 2 attempts to score in this question.
+Attempts left:
+2/2
+Options
+This problem may have one or more correct answers
+DBMS is a set of programs that helps a user to create and maintain a database.
+DBMS can be used to perform operations such as insert, update , delete and retrieve.
+DBMS is a hardware unit for managing tables.
+DBMS helps a user to overcome issues of data redundancy and inconsistency.
+  
+
+ Solution -:    Therefore, statements 1, 2, and 4 are true.
+
+
+
+
+Question-4)Which of the following has a quicker response to query data?
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+File based storage system
+RDBMS
+
+ 
+  Solution -:    2
+
+
+
+
+Question-5) Which of the following is/are true?
+You have max 2 attempts to score in this question.
+Attempts left:
+2/2
+Options
+This problem may have one or more correct answers
+DBMS stores data in files while RDBMS stores data in tables.
+DBMS hardware and software requirements are usually higher than RDBMS requirements.
+DBMS is used by a single user whereas RDBMS can be used by multiple users.
+RDBMS supports client server architecture.
+
+ 
+  Solution -:    
+  
+  
+  
+  
+  
+  
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!~!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  Assignment - 1 ( MCQ 6 - 15)
+
+Guess the type of  NoSQL database that should be used for the following parts. Please choose the answer between :
+
+ 
+
+ 1. Key-value database
+
+ 2. Document database
+
+ 3. Columnar Database 
+
+ 4. Graph database
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+Question-6)Which of the following NoSQL database is usually used for caching solutions?
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+Columnar databases
+Document databases
+Key value databases
+Graph databases
+
+
+  Solution :   3 
+
+
+
+Question-7)  To store data as collections, dictionaries, associative arrays.
+You have max 2 attempts to score in this question.
+Attempts left:
+2/2
+Options
+This problem has only one correct answer
+Key-value database
+Document database
+Columnar database
+Graph database
+
+
+  Solution :    
+
+
+
+
+
+
+Question-8)  For blogging applications to store each blog with a set of related characteristics:
+You have max 2 attempts to score in this question.
+Attempts left:
+2/2
+Options
+This problem has only one correct answer
+Key-value database
+Document database
+Columnar database
+Graph database
+
+
+  Solution :    2
+
+
+
+
+
+
+
+Question-9)  To store web pages as documents for an e-commerce product catalogue.
+You have max 2 attempts to score in this question.
+Attempts left:
+2/2
+Options
+This problem has only one correct answer
+Key-value database
+Document database
+Columnar database
+Graph database
+
+
+  Solution :    2
+
+
+
+
+
+Question-10)  For social networks.
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+Key-value database
+Document database
+Columnar database
+Graph database
+
+
+  Solution :    4
+
+
+
+
+
+
+
+
+
+
+Question-11)  Shopping cart content for e-commerce application.
+You have max 2 attempts to score in this question.
+Attempts left:
+2/2
+Options
+This problem has only one correct answer
+Key-value database
+Document database
+Columnar Database
+Graph Database
+
+
+  Solution :   1 
+
+
+
+
+
+
+
+
+Question-12)  To manage a data warehouse.
+You have max 2 attempts to score in this question.
+Attempts left:
+2/2
+Options
+This problem has only one correct answer
+Key-value database
+Document database
+Columnar Database
+Graph Database
+
+
+  Solution :    Columnar Database
+ 
+
+
+
+
+
+Question-13)  Online multiplayer games storing data for each player with flexible characteristics in that world:
+You have max 2 attempts to score in this question.
+Attempts left:
+2/2
+Options
+This problem has only one correct answer
+Key-value database
+Document database
+Columnar database
+Graph database
+
+
+  Solution :    Document database
+
+
+
+
+
+
+
+
+Question-14) Application like google maps , storing connections between different paces.
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+Key-value database
+Document database
+Columnar database
+Graph database
+
+
+  Solution :    Graph database
+
+
+
+
+
+
+
+Question-15)  Create leaderboard for online games displaying the score of each player:
+You have max 2 attempts to score in this question.
+Attempts left:
+2/2
+Options
+This problem has only one correct answer
+Key-value database
+Document database
+Columnar database
+Graph database
+
+
+  Solution :    1
+
+
+
+
+
+
+
+
+Question-16)  Practice Question - 1
+Send Feedback
+Suppose you are building a photo-sharing application like Instagram. Do you think such a large scale application can be built using only one kind of database?
+Answer
+no
+
+ 
+
+  Solution :    Solution Description
+No, in the majority of cases multiple DBs are used for different functions of an application.
+
+
+
+
+
+
+
+
+Question-17)  Practice Question - 2
+Send Feedback
+Suppose you are building a photo-sharing application like Instagram. Can we use relational and NoSQL databases in the same system?
+Answer
+yes
+Type here
+Solution Description
+Yes, they can be used for a single system.
+
+
+  Solution :    yes
+
+
+
+
+
+
+
+
+Question-18)  MCQ - 16
+Send Feedback
+Which of the following statement is FALSE regarding the NoSQL database.
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+They support large amounts of data.
+They are based on a relational database.
+They provide high performance.
+They provide more flexibility than SQL databases.
+
+
+  Solution :    2
+
+
+
+
+
+
+
+######################################################################################################################
+Assignment - 2
+
+For the same photo-sharing application, select the database that should be preferred for the following features. (Choose between a Relational or NoSQL database)
+
+########################################################################################################################################
+
+
+
+
+
+
+
+
+
+
+
+
+Question-19)  MCQ - 17
+Send Feedback
+Which type of database should be used to store login information?
+You have max 2 attempts to score in this question.
+Attempts left:
+2/2
+Options
+This problem has only one correct answer
+Relational Database
+NoSQL Database
+
+
+  Solution :    Relational Database
+
+
+
+
+
+Question-20) MCQ - 18
+Send Feedback
+Which type of database should be used to run analytics on the huge amount of user data generated?
+You have max 2 attempts to score in this question.
+Attempts left:
+2/2
+Options
+This problem has only one correct answer
+Relational Database
+NoSQL Database
+
+
+
+  Solution :   NoSQL Database 
+
+
+
+
+
+
+Question-21)MCQ - 19
+Send Feedback
+Which type of database should be used to implement cache to maintain low latency for frequently accessed data?
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+Relational Database
+NoSQL Database
+Hurray! Correct Answer
+
+ 
+
+ Solution -:    NoSQL Database
+
+
+
+
+
+
+Question-22)Which type of database should be used to set up a payment system within the application?
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+Relational Database
+NoSQL Database
+ 
+
+ Solution -:    Relational Database
+
+
+
+
+
+
+Question-23)MCQ - 21
+Send Feedback
+Which type of database should be used to run a recommendation system to keep users engaged?
+You have max 2 attempts to score in this question.
+Attempts left:
+2/2
+Options
+This problem has only one correct answer
+Relational Database
+NoSQL Database
+ 
+
+ Solution -:    NoSQL Database
+
+
+
+
+
+
+Question-24)MCQ - 22
+Send Feedback
+A normalised database is a starting point of the denormalization process.
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+True
+False
+ 
+
+ Solution -:   True 
+
+
+
+
+
+
+Question-25)MCQ - 23
+Send Feedback
+Which of the following are the benefits of denormalisation?
+You have max 2 attempts to score in this question.
+Attempts left:
+2/2
+Options
+This problem has only one correct answer
+It can enhance query performance by reducing the number of joins
+It can help in accelerating reporting as all the data is easily accessible
+It can reduce the number of network calls to fetch data from multiple places
+All of the above
+ 
+
+ Solution -:    4
+
+
+
+
+
+
+Question-26)MCQ - 24
+Send Feedback
+What can be the challenges of denormalisation?
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem may have one or more correct answers
+May lead to wastage of memory
+May lead to more number of foreign keys
+Due to data duplication, the data might become inconsistent
+It may lead to faster write operations, if the number of writes are high
+ 
+
+ Solution -:    1  ,  3
+
+
+
+
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Assignment - 3 (Practice Question 3-6)
+
+Suppose we have an online bookstore database and it has two tables: books and  warehouse.
+ 
+The table books contain information such as BookId, Bookname, Warehouse_ID, Quantity
+ 
+Similarly, the warehouse table contains Warehouse_ID, Address.
+ 
+Using this information answer the following questions.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+
+Question-27)Practice Question - 3
+Send Feedback
+What if we require the information of the books and where they are stored to get them ready for delivery. This would require the warehouse address, which is stored in a different table.How to get this data?
+
+ 
+
+ Solution -:    We would require to join the two tables
+
+
+
+
+
+
+Question-28)Practice Question - 4
+Send Feedback
+What if the books table has a huge amount of data, millions of entries. Will join still be an optimal solution?
+
+ 
+
+ Solution -:    Solution Description
+The performance of the system may decrease due to performing joins on large amounts of data.
+
+
+
+
+
+
+Question-29)Practice Question - 5
+Send Feedback
+Can denormalisation be used in this scenario?
+
+ 
+
+ Solution -:    Yes
+
+
+
+
+
+
+
+
+
+Question-30)Practice Question - 6
+Send Feedback
+What should be done?
+
+  
+
+ Solution -:    Solution Description
+If we add the address of the warehouse within the book table there would be no need to perform huge join operations.
+
+
+
+  
+                                                      ~© By Bireswar Ghosh
+  
+  
+           |
+           |
+           |
+          \|/
+|=|================================|=|
+|=|     # THANK YOU FOR SEE IT     |=|
+|=|         # PLEASE FOLLOW        |=|
+|=|   # STAR MY REPOSITORY ⭐ !!!   |=|
+|=|================================|=|
+ 
+ 
+
+
