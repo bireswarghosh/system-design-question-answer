@@ -1,1 +1,255 @@
 
+
+Topic ----> Communication
+
+
+
+
+Question-1)    Which of the following is an example of synchronous communication?
+You have max 2 attempts to score in this question.
+Attempts left:
+0/2
+Options
+This problem has only one correct answer
+Emailing to customer support
+Video call with customer support
+ 
+
+ Solution -:  2                                                                                                                                                                          1  B
+ 
+
+
+Question-2)MCQ - 2
+Send Feedback
+Which of the following is true for synchronous communication?
+You have max 2 attempts to score in this question.
+Attempts left:
+2/2
+Options
+This problem has only one correct answer
+A communication session is established by both the sender and the receiver
+A communication session is established by the sender
+A communication session is established by the receiver
+No need to establish a communication session
+ 
+
+ Solution -:    1
+
+
+
+
+Question-3) For which type of applications should we use synchronous communication?
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem may have one or more correct answers
+Where payment transactions are involved
+Where consistency is not important
+Where real time decision making has to be done
+Where application design has to be kept simple
+Synchronous communication leads to loosely coupled components
+  
+
+ Solution -:    
+
+
+
+
+Question-4)MCQ - 4
+Send Feedback
+State whether the following statement is true or false.
+Asynchronous communication is also called start/stop communication
+
+You have max 2 attempts to score in this question.
+Attempts left:
+2/2
+Options
+This problem has only one correct answer
+True
+False
+
+ 
+  Solution -:True
+
+
+
+
+Question-5) Guess if it is an example of synchronous or asynchronous communication :
+(Answer in lowercase as synchronous or asynchronous)
+When using online shopping platforms, when a user selects a product, the system generates a query to check if the product is available in inventory or not.
+
+
+
+ 
+  Solution -:    synchronous 
+
+
+
+
+
+Question-6)Practice Question - 2
+Send Feedback
+Guess if it is an example of synchronous or asynchronous communication :
+(Answer in lowercase as synchronous or asynchronous)
+When the payment process is going on for the products.
+
+
+
+  Solution :    synchronous 
+
+
+
+Question-7)  Practice Question - 3
+Send Feedback
+Guess if it is an example of synchronous or asynchronous communication :
+(Answer in lowercase as synchronous or asynchronous)
+After the order has been placed, a confirmation notification is sent on the phone.
+
+
+  Solution :    asynchronous
+
+
+
+
+
+
+Question-8) Which of the following is true for asynchronous communication?
+You have max 2 attempts to score in this question.
+Attempts left:
+2/2
+Options
+This problem may have one or more correct answers
+It should be used when the computation time is large
+It is helpful in making systems scalable
+The data is transferred in a steady stream.
+It allows decoupling of components so that they can work independently
+It can reduce the chances of cascading failure of the complete system
+ 
+
+
+  Solution :     1 2 4 5
+
+
+
+
+
+
+
+Question-9)  MCQ - 6
+Send Feedback
+Request response pattern is also called tracking id based pattern. State whether the following statement is true or false.
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+True
+False
+
+
+  Solution :    True
+
+
+
+
+
+Question-10)  Which of the following policies is used to deliver messages through the message queue?
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+LIFO
+FIFO
+LRU
+
+
+  Solution :FIFO
+
+
+
+
+
+
+
+
+
+
+Question-11)  MCQ - 8
+Send Feedback
+Which of the following is/are true?
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem may have one or more correct answers
+Message based communication helps in achieving synchronous communication.
+Messaging is a communication style used to connect different components in a distributed system.
+Message queue can store important data.
+Message queue can help various parts of the system to communicate and process the operations asynchronously.
+
+
+  Solution :    
+
+
+
+
+
+
+
+
+Question-12)  MCQ - 9
+Send Feedback
+Which of the following is/are true for message queue models?
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem may have one or more correct answers
+Peer to peer model can have more than 2 machine communicating at a given time
+Publish subscribe model allows multiple machines to receive same message
+Peer to peer model is also known as point to point model
+
+
+  Solution :    
+ 
+
+
+
+
+
+Question-13)  MCQ - 10
+Send Feedback
+Kafka is a tool which provides asynchronous communication solution. State whether the following statement is true or false.
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+True
+False
+
+
+  Solution :    True
+
+
+
+
+                                                      ~© By Bireswar Ghosh  
+  
+                                                 
+           |
+           |
+           |
+          \|/
+|=|============================================|=|
+|=|     # THANK YOU FOR SEE IT                 |=|
+|=|         # PLEASE FOLLOW                    |=|
+|=|   # STAR MY REPOSITORY ⭐ !!!              |=|
+|=|FORK IT ON YOUR REPOSITORY FOR STAY UPDATED |=|
+|=|============================================|=|
+ 
+ 
+
+
