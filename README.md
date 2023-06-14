@@ -28,14 +28,10 @@ This repo includes:
    [Topic ----> Communication](https://github.com/bireswarghosh/system-design-question-answer/blob/main/Topic%20----%3E%20Communication)     
         
         
-        
-        
-            upcoming topic answers update coming soon 🔜 
+   upcoming topic answers update coming soon 🔜 
 
 
- 
-  
-                                            ~© By Bireswar Ghosh
+#                          ~© By Bireswar Ghosh
   
  
      
