@@ -20,7 +20,7 @@ This repo includes:
    [Topic ---- Scaling Techniques - I](https://github.com/bireswarghosh/system-design-question-answer/blob/main/Topic%20----%20Scaling%20Techniques%20-%20I)
 
 
-   [Topic ----> Scaling Techniques - II](https://github.com/bireswarghosh/system-design-question-answer/commit/3bc403f94c72730c4b43b27093c83ff413b76ac4)
+   [Topic ----> Scaling Techniques - II](https://github.com/bireswarghosh/system-design-question-answer/blob/main/Topic%20----%3E%20Scaling%20Techniques%20-%20II)
 
    [Topic ----> Database](https://github.com/bireswarghosh/system-design-question-answer/blob/main/Topic%20----%3E%20Database)
         
