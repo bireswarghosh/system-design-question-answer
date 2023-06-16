@@ -28,6 +28,9 @@ This repo includes:
    [Topic ----> Communication](https://github.com/bireswarghosh/system-design-question-answer/blob/main/Topic%20----%3E%20Communication)     
         
         
+    [Topic ----> Web Applications](https://github.com/bireswarghosh/system-design-question-answer/blob/main/Topic%20----%3E%20Web%20Applications)    
+        
+        
    upcoming topic answers update coming soon 🔜 
 
 
