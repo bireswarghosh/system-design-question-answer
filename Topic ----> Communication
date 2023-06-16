@@ -190,7 +190,7 @@ Message queue can store important data.
 Message queue can help various parts of the system to communicate and process the operations asynchronously.
 
 
-  Solution :    
+  Solution :    2     4
 
 
 
@@ -212,7 +212,7 @@ Publish subscribe model allows multiple machines to receive same message
 Peer to peer model is also known as point to point model
 
 
-  Solution :    
+  Solution :    2   3
  
 
 
